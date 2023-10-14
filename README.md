@@ -27,7 +27,7 @@ MyECommerce is a state-of-the-art eCommerce platform that aims to provide a seam
 
 To preview the site locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
+1. Clone the repository: `git clone https://github.com/TeddyO323/Ecommerce_website.git`
 2. Navigate to the project directory.
 3. Install dependencies using `npm install`.
 4. Run the development server using `npm start`.
@@ -39,7 +39,7 @@ We welcome any contributions and feedback. Please feel free to raise issues and 
 
 ## Contact
 
-For any questions or suggestions, please reach out to us at [your-email@example.com].
+For any questions or suggestions, please reach out to us at [omosh60@gmail.com].
 
 Thank you for your interest in MyECommerce!
 
