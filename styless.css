@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    width: 5%;
+    height: 5%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Set your desired fixed height here */
+    object-fit: contain; /* Maintain aspect ratio and cover the container */
+}
+
+.sidenav {
+    background-color: #6c757d; /* Replace 'your-desired-color' with the color you want */
+    min-height: 100%; /* Set a minimum height */
+}
+
+.sidenav .nav-item {
+    background-color: #0acdeb;
+}
+
+.sidenav .nav-link{
+    color: white;
+    text-align: center;
+}
+
+.spacer {
+    height: 500% /* Adjust the height to create the desired space */
+}
+
+.sidenav ul {
+    margin-top: auto; /* Align the "Categories" section to the middle */
+    scroll-behavior: smooth;
+}
+.container-fluid{
+    padding: 0;
+}
+.admin-image {
+    width: 100px;
+    object-fit: contain;
+    
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+.button-container {
+    margin-left: 20px; /* Adjust the margin-left value as needed for spacing */
+    display: flex;
+    align-items: flex-start;
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+}
+/* Define the default styles for .nav-link */
+.nav-link {
+    background-color: #333; /* Default background color */
+    color: #fff; /* Default text color */
+    padding: 10px; /* Add some padding for better appearance */
+    transition: background-color 1.3s, color 0.3s; /* Add transition for smooth color change */
+}
+
+/* Define the hover styles for .nav-link */
+.nav-link:hover {
+    background-color: #fc0d0d; /* Background color on hover */
+    color: #333; /* Text color on hover */
+}
+/* Apply styles to the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Style the table header */
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the table header cells */
+  thead th {
+    font-weight: bold;
+  }
+  
+  /* Style the table rows */
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style the product image */
+  table img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+  
+  /* Style the quantity input */
+  table input[type="text"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  /* Style the remove checkbox */
+  table input[type="checkbox"] {
+    margin: 0 auto;
+  }
+  
+  /* Style the operations buttons */
+  table td p {
+    margin: 5px 0;
+  }
+  
+  /* Style the subtotal section */
+  .d-flex {
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .d-flex h4 {
+    margin: 0;
+  }
+  
+  /* Style the buttons in the subtotal section */
+  .d-flex a button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .d-flex a button:hover {
+    background-color: #06b300;
+  }
+  
